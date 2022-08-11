@@ -19,7 +19,7 @@ from sklearn.metrics import mean_squared_error,mean_absolute_error,mean_absolute
 from tensorflow.keras.utils import plot_model
 
 #%% Statics
-DATA_PATH = os.path.join(os.getcwd(), 'Top_Glove_Stock_Price_Train.csv')
+DATA_PATH = os.path.join(os.getcwd(),'Datasets', 'Top_Glove_Stock_Price_Train.csv')
 MMS_FILE_NAME = os.path.join(os.getcwd(),'minmax_scaler.pkl')
 
 #%% Data Loading 
